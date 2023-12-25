@@ -1,0 +1,308 @@
+/* main colour #ffc107 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 10px; */
+  font-family: Montserrat;
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  /* font-size: 80%; */
+  overflow-x: hidden;
+}
+.navbar-brand {
+  font-family: Montserrat Alternates;
+  font-size: 2rem;
+  color: #ffc107 !important;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.87);
+  padding: 1.2rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.nav-link:hover,
+.nav-link:active {
+  transition: all 0.3s ease;
+
+  background-color: none;
+  color: #ffc107 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: white;
+}
+/* hero section */
+.hero {
+  background: url(../img/header-bg.jpg) no-repeat center center;
+  background-size: cover;
+
+  padding: 20rem 0;
+  text-align: center;
+  color: #fff;
+}
+.hero-subheading {
+  font-weight: 500;
+  font-size: 2.3rem;
+  font-family: Roboto Slab;
+}
+.hero-heading {
+  font-weight: 700;
+  font-size: 4.5rem;
+
+  font-family: Montserrat;
+}
+
+.btn-hero:link,
+.btn-hero:visited {
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.btn-hero:hover,
+.btn-hero:active {
+  transition: all 0.3s ease;
+  background-color: #ffa600;
+}
+/* service section */
+.page-service {
+  padding: 9.6rem 0 9.6rem 0;
+  margin-bottom: 2rem;
+  min-height: 100vh;
+  width: 100%;
+}
+.heading-Products,
+.heading-service,
+.heading-about,
+.heading-team {
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: Montserrat;
+}
+.general-content {
+  color: #888;
+  font-size: 1.1rem;
+
+  font-style: italic;
+}
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1b1b1b;
+}
+.general-content-2 {
+  margin-top: 1rem;
+  color: #888;
+  font-size: 1.1rem;
+}
+.sub-heading-service {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.card-body .ion-icon {
+  color: white;
+  background-color: #ffc107;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+  padding: 1.5rem;
+}
+.card {
+  border: none;
+}
+.ggc {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* product section */
+
+.page-product {
+  padding: 4.8rem 0 4.8rem 0;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.general-content {
+  margin-bottom: 4rem;
+}
+.page-product .card {
+  margin-bottom: 2rem;
+}
+.card-title {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card-title-sub {
+  margin-bottom: 2rem;
+  color: #888;
+}
+
+.product-content {
+  margin-bottom: 5rem; /* Adjust the bottom margin as needed */
+}
+
+.card {
+  margin-bottom: 2rem; /* Add margin between the cards */
+}
+.custom-circle-img {
+  width: 15rem;
+  border: 0.7rem solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  /* height: 9rem; */
+}
+
+/* about us */
+
+.page-about {
+  padding: 4.8rem 0 4.8rem 0;
+}
+/* service */
+.page-team {
+  padding: 4.8rem 0 4.8rem 0;
+}
+
+.card-service {
+  border: 0;
+}
+.socil-1,
+.socil-1,
+.socil-1 {
+  font-size: 2.5rem;
+  color: #252525;
+}
+
+.logo-width {
+  padding: 2rem;
+  width: 15rem;
+}
+.page-featured {
+  padding: 4.8rem;
+}
+
+/* footer */
+.footer {
+  padding: 2rem 0 2rem 0;
+}
+.footer-content {
+  text-decoration: none;
+  color: #888;
+}
+
+/* contact form */
+.contact-form {
+  padding: 4rem 0 4rem 0;
+  background-color: #212529;
+  background-image: url(../img/map-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+.contact-heading {
+  color: #fff;
+}
+.inputBox {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.inputBox input[type="text"],
+.inputBox input[type="email"] {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #4444447e;
+}
+.inputBox textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #444;
+}
+.inputBox button {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  background-color: #ffc107b9;
+
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.inputBox button:hover,
+.inputBox button:active {
+  transition: all 0.3s ease;
+  background: #ffc107;
+  color: #ffffff !important;
+}
+
+::placeholder {
+  font-size: 1.6rem;
+}
+
+.alert {
+  width: 100%;
+  background: rgb(0, 255, 106);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  display: none;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-color: #212529;
+}
+
+.socil-links .socil-1:link,
+.socil-links .socil-1:visited {
+  background-color: #ffc107;
+  border-radius: 50%;
+  text-decoration: nnone;
+  color: #ffffff;
+}
+.socil-links .socil-1:hover,
+.socil-links .socil-1:active {
+  transition: all 0.3s ease;
+  color: #ffc107;
+
+  background-color: none;
+}
